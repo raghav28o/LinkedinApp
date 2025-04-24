@@ -57,4 +57,14 @@ public class Post {
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "id=" + id +
+                ", content='" + content + '\'' +
+                ", userId=" + userId +
+                ", createdAt=" + createdAt +
+                '}';
+    }
 }

@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d92ce384-bb55-4e01-af22-6ba9b13da061" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/dto/LoginRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/dto/SignupRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/exception/ApiError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/service/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/linkedin/user_service/utils/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connections-service/src/main/java/com/example/linkedin/connections_service/controller/ConnectionsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connections-service/src/main/java/com/example/linkedin/connections_service/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connections-service/src/main/java/com/example/linkedin/connections_service/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connections-service/src/main/java/com/example/linkedin/connections_service/service/ConnectionsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts-service/src/main/java/com/example/linkedin/posts_service/controller/PostsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/java/com/example/linkedin/posts_service/controller/PostsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts-service/src/main/java/com/example/linkedin/posts_service/dto/PostCreateRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/java/com/example/linkedin/posts_service/dto/PostCreateRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts-service/src/main/java/com/example/linkedin/posts_service/dto/PostDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/java/com/example/linkedin/posts_service/dto/PostDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts-service/src/main/java/com/example/linkedin/posts_service/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/java/com/example/linkedin/posts_service/entity/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/posts-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -60,8 +61,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/LinkedinApp/discovery-service",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "last_opened_file_path": "E:/LinkedinApp/connections-service",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "settings.editor.splitter.proportion": "0.2650357"
   }
 }]]></component>
@@ -80,7 +81,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ApiGatewayApplication">
+  <component name="RunManager" selected="Application.PostsServiceApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.linkedin.api_gateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -126,5 +127,9 @@
       <updated>1743343432869</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

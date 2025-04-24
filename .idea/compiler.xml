@@ -20,6 +20,7 @@
         </processorPath>
         <module name="posts-service" />
         <module name="api-gateway" />
+        <module name="connections-service" />
         <module name="user-service" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
+      <module name="connections-service" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="posts-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
